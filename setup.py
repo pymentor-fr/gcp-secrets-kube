@@ -6,6 +6,10 @@ setup(
     packages=find_packages(),
     include_package_data=True,
     long_description=open('README.md').read(),
+    author='mike',
+    author_email='mike@pymentor.fr',
+    url='https://github.com/pymentor-fr/gcp-secrets-kube',
+    download_url='https://github.com/pymentor-fr/gcp-secrets-kube/archive/v0.1.0.tar.gz',
     install_requires=[
         'google-cloud-secret-manager==2.0.0',
         'click==7.1.2',
